@@ -1,8 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    puntua.move(1)
+    puntua.move(-1)
 })
 input.onButtonPressed(Button.B, function () {
-    puntua.move(-1)
+    puntua.move(1)
 })
 let meteorito: game.LedSprite = null
 let puntua: game.LedSprite = null
